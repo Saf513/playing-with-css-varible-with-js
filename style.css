@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: #193549;
+    color: white;
+    font-size: 50px;
+    font-weight:100;
+
+}
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+img{
+   
+   padding: var(--spacing);
+   background: var(--base); 
+   filter: blur(var(--blur));
+   min-height: 700px;
+   min-width:800px ;
+}
+
+.titre{
+    color:var(--base);
+}
+.container{
+ margin-bottom: 50px;
+}
